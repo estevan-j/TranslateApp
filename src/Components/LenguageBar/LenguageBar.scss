@@ -1,0 +1,35 @@
+.lenguageBar{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #394150;
+}
+
+.a-lenguage{
+    font-size: 16px;
+    font-weight: 500;
+    width: fit-content;
+    color: #394150;
+    border: none;
+    padding: 6px 10px;
+}
+
+.a-active{
+    color: #fff;
+    border-radius: 6px;
+    background-color: #CDD5E0;
+    cursor: pointer;
+}
+
+.letters{
+    font-size: 12px;
+    align-self: flex-end;
+}
+
+#more-len{
+    position: relative;
+    margin-left: -3px;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+}

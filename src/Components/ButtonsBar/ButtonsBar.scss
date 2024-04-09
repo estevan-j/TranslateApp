@@ -1,0 +1,30 @@
+.container-btns{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 5px;
+}
+
+button{
+    height: 32px;
+    width: 35px;
+    background-color: transparent;
+    border: 1px solid #394150;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.btn-translate{
+    position: relative;
+    width: fit-content;
+    display: flex;
+    font-size: 14px;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 15px;
+    background-color: #3662E3;
+    border-radius: 1px solid #7CA9F3;
+    left:320px;
+}
